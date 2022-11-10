@@ -68,12 +68,18 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - RippleDensity: 6
+    - RippleSize: 0.3
+    - RippleSlimness: 2
+    - RippleSpeed: 1
     - Vector1_18987fe207c04bc4b6c2e6e3c9437116: 0.24
     - Vector1_38611649490c40d48907317d6eb0c67a: 0.7
     - Vector1_444ae3eff6e14ed28234cae7467e05d7: 6
     - Vector1_55aef0451f0949a7a99582512110a450: 0.43
     - Vector1_9e6d60cd3b1e4e9685f67f69ce262948: 1
     - Vector1_cea119b17e7e4cfa94cab36ae954de28: 2
+    - WaterClarity: 0.22
+    - WaveSpeed: 0.1
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -91,8 +97,10 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
+    - BaseColor: {r: 0.21226418, g: 0.70344067, b: 1, a: 0}
     - Color_198e6475f1514fada914f567c856c7d6: {r: 0.091224626, g: 0.3956033, b: 0.4716981, a: 0}
     - Color_d65163cbdc6d4489858f4e27007ee7e9: {r: 0.28773582, g: 0.7318535, b: 1, a: 0}
+    - RippleColor: {r: 0.10849059, g: 0.8216979, b: 1, a: 0}
     - _Ambient: {r: 0.20754719, g: 0.20069422, b: 0.20069422, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Diffuse: {r: 1, g: 0, b: 0, a: 1}
